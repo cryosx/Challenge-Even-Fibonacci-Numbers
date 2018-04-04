@@ -47,7 +47,7 @@ function getFib(num) {
       fibSeq: [0, 1, 1]
     };
   }
-  while (currFib < num) {
+  while (currFib <= num) {
     let temp = currFib;
 
     currFib = currFib + prevFib;
